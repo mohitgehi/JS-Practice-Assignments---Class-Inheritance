@@ -2,11 +2,10 @@
 
 // export class using module.exports
 
-export default class Shape {
-  constructor(color) {
-    // Don't call this.setState() here!
-    this.color = color;
+module.exports = class Shape {
+  constructor() {
+    this.color = "red";
   }
-  drawShape = function () {};
-  calculateArea = function () {};
-}
+  drawShape() {}
+  calculateArea() {}
+};
