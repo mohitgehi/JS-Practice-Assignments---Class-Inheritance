@@ -6,6 +6,9 @@
 import Shape from "./shape";
 
 class Circle extends Shape {
-  calculateArea() {}
+  constructor(color) {
+    super(color);
+  }
+  calculateArea = function () {};
 }
 export default Circle;
